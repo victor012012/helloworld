@@ -9,8 +9,11 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 2s backwards;
   }
+}
+.App-logo:focus{
+  position:absolute; left:80px; top:20px;
 }
 
 .App-header {
